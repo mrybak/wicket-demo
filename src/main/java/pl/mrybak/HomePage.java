@@ -10,7 +10,7 @@ public class HomePage extends WebPage {
 	public HomePage(final PageParameters parameters) {
 		super(parameters);
 
-		add(new Label("version", getApplication().getFrameworkSettings().getVersion()));
+		add(new Label("message", "helloz nerds"));
 
 		// TODO Add your page's components here
 
